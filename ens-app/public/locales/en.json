@@ -221,7 +221,7 @@
   "reminder": {
     "everywhere": "everywhere",
     "release": {
-      "description": "Register {{name}} at https://swap.c4ei.net/name/{{name}}/register",
+      "description": "Register {{name}} at https://ens.c4ei.net/name/{{name}}/register",
       "title": "Register {{name}}"
     },
     "renewal": {

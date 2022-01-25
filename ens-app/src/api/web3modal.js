@@ -8,7 +8,7 @@ import {
 import { getNetwork, getNetworkId, isReadOnly } from '@ensdomains/ui'
 
 const INFURA_ID =
-  window.location.host === 'swap.c4ei.net'
+  window.location.host === 'ens.c4ei.net'
     ? '90f210707d3c450f847659dc9a3436ea'
     : '58a380d3ecd545b2b5b3dad5d2b18bf0'
 
@@ -31,7 +31,8 @@ const option = {
       packageFactory: true,
       options: {
         appName: 'Ethereum name service',
-        jsonRpcUrl: `https://mainnet.infura.io/v3/${INFURA_ID}`
+        // jsonRpcUrl: `https://mainnet.infura.io/v3/${INFURA_ID}`
+        jsonRpcUrl: `https://rpc.c4ei.net`
       }
     },
     mewconnect: {

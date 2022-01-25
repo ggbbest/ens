@@ -221,7 +221,7 @@
   "reminder": {
     "everywhere": "ovunque",
     "release": {
-      "description": "Registra {{name}} su https://swap.c4ei.net/name/{{name}}/register",
+      "description": "Registra {{name}} su https://ens.c4ei.net/name/{{name}}/register",
       "title": "Registra {{name}}"
     },
     "renewal": {
