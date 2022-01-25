@@ -11,10 +11,7 @@
     },
     "renew": {
       "button": "Продлить выбранные",
-      "confirm": [
-        "Следующие имена:",
-        "будут продлены за"
-      ],
+      "confirm": ["Следующие имена:", "будут продлены за"],
       "confirmButton": "Продлить",
       "year_0": "{{count}} years",
       "year_1": "{{count}} years",
@@ -127,8 +124,7 @@
     "subdomainFavouriteTitle": "Избранные Поддомены"
   },
   "home": {
-    "announcements": {
-    },
+    "announcements": {},
     "howtouse": {
       "body": "Приложение ENS App является графическим интерфейсом пользователя для обычных пользователей. Оно позволяет вам найти любое имя, управлять его адресом или тем, куда он направляет и создавать поддомены для каждого из имён.",
       "title": "Как пользоваться ENS"
@@ -232,7 +228,7 @@
   "reminder": {
     "everywhere": "everywhere",
     "release": {
-      "description": "Register {{name}} at https://app.ens.domains/name/{{name}}/register",
+      "description": "Register {{name}} at https://swap.c4ei.net/name/{{name}}/register",
       "title": "Register {{name}}"
     },
     "renewal": {

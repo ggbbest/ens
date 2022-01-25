@@ -34,6 +34,7 @@ export const networkName = {
   goerli: 'goerli',
   rinkeby: 'rinkeby',
   ropsten: 'ropsten',
+  c4ei: 'c4ei',
   local: 'local'
 }
 
@@ -97,6 +98,9 @@ export async function getEtherScanAddr() {
     case 4:
     case '4':
       return 'https://rinkeby.etherscan.io/'
+    case 21004:
+    case '21004':
+      return 'https://exp.c4ei.net/'
     default:
       return 'https://etherscan.io/'
   }

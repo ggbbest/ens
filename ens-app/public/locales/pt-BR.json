@@ -11,10 +11,7 @@
     },
     "renew": {
       "button": "Estendendo o tempo do selecionado",
-      "confirm": [
-        "Os seguintes nomes:",
-        "Vão ser estendidos para"
-      ],
+      "confirm": ["Os seguintes nomes:", "Vão ser estendidos para"],
       "confirmButton": "Estender",
       "year": "{{count}} ano",
       "year_plural": "{{count}} anos"
@@ -125,8 +122,7 @@
     "subdomainFavouriteTitle": "Subdomínios favoritos"
   },
   "home": {
-    "announcements": {
-    },
+    "announcements": {},
     "howtouse": {
       "body": "O Aplicativo ENS é uma Interface Grafíca para Usuários que não são tecnicos. Permitindo você buscar qualquer nome, gerenciar seus endereços ou recursos para os quais apontar e criar subdminíos de cada nome.",
       "title": "Como usar ENS"
@@ -189,7 +185,7 @@
     "notify": "Avise-me",
     "premium": {
       "dateDescription": "Data e hora mostrados no fuso horário local",
-      "invalid": "Qualquer número acima de 2k é inválido",  
+      "invalid": "Qualquer número acima de 2k é inválido",
       "title": "Prêmio"
     },
     "premiumWarning": {
@@ -230,7 +226,7 @@
   "reminder": {
     "everywhere": "em todos os lugares",
     "release": {
-      "description": "Registro {{name}} em https://app.ens.domains/name/{{name}}/register",
+      "description": "Registro {{name}} em https://swap.c4ei.net/name/{{name}}/register",
       "title": "Registro {{name}}"
     },
     "renewal": {
@@ -333,7 +329,7 @@
     },
     "resolver": {
       "error": "Erro ao migrar o resolvedor",
-      "message": "Para redefinir seu resolvedor manualmente, clique em definir e insira o endereço de seu resolvedor personalizado.",  
+      "message": "Para redefinir seu resolvedor manualmente, clique em definir e insira o endereço de seu resolvedor personalizado.",
       "placeholder": "Use o Resolvedor público ou insira o endereço do seu resolvedor de contrato personalizado",
       "publicResolver": "Use o Resolvedor público",
       "resolverAddressWarning": "Apenas endereços de contrato são permitidos",

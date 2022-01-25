@@ -4,7 +4,7 @@ function createFetchUrl(name) {
 }
 
 function whitelisted() {
-  return ['app.ens.domains', 'ens.eth', 'ens.eth.link'].includes(
+  return ['swap.c4ei.net', 'ens.eth', 'ens.eth.link'].includes(
     window.location.host
   )
 }

@@ -11,10 +11,7 @@
     },
     "renew": {
       "button": "Gia hạn đã chọn",
-      "confirm": [
-        "Những tên miền sau:",
-        "sẽ được gia hạn cho"
-      ],
+      "confirm": ["Những tên miền sau:", "sẽ được gia hạn cho"],
       "confirmButton": "Gia hạn",
       "year": "{{count}} năm"
     },
@@ -76,12 +73,7 @@
     "notmigrated": "Chưa Được Chuyển Đổi"
   },
   "dns": {
-    "breadcrumbs": [
-      "MỞ  DNSSEC",
-      "THÊM TEXT ",
-      "GỬI CHỨNG CỨ",
-      "QUẢN LÝ TÊN"
-    ],
+    "breadcrumbs": ["MỞ  DNSSEC", "THÊM TEXT ", "GỬI CHỨNG CỨ", "QUẢN LÝ TÊN"],
     "dnsowner": "Chủ của DNS",
     "steps": {
       "addtext": {
@@ -123,8 +115,7 @@
     "subdomainFavouriteTitle": "Tên miền con ưa thích"
   },
   "home": {
-    "announcements": {
-    },
+    "announcements": {},
     "howtouse": {
       "body": "ENS App là một giao diện cho người dùng không rành về kỹ thuật . Cho phép bạn tìm bất cứ tên nào, quản lý địa chỉ, tính năng và tạo tên miền con của mỗi tên.",
       "title": "Cách dùng  ENS "
@@ -228,7 +219,7 @@
   "reminder": {
     "everywhere": "everywhere",
     "release": {
-      "description": "Register {{name}} at https://app.ens.domains/name/{{name}}/register",
+      "description": "Register {{name}} at https://swap.c4ei.net/name/{{name}}/register",
       "title": "Register {{name}}"
     },
     "renewal": {

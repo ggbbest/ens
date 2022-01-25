@@ -26,7 +26,7 @@ export function getConfig(service) {
 }
 
 export function getDev() {
-  if (window.location.href.includes('https://app.ens.domains')) {
+  if (window.location.href.includes('https://swap.c4ei.net')) {
     return false
   } else {
     return true

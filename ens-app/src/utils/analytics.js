@@ -7,7 +7,7 @@ const TrackingID = {
 }
 
 function isProduction() {
-  return window.location.host === 'app.ens.domains'
+  return window.location.host === 'swap.c4ei.net'
 }
 
 function isDev() {

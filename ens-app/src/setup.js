@@ -40,6 +40,7 @@ export const isSupportedNetwork = networkId => {
     case 4:
     case 5:
     case 1337:
+    case 21004:
       return true
     default:
       return false
@@ -55,7 +56,7 @@ export const getProvider = async reconnect => {
     ) {
       const { providerObject } = await setup({
         reloadOnAccountsChange: false,
-        customProvider: 'http://localhost:8545',
+        customProvider: 'https://rpc.c4ei.net',
         ensAddress: process.env.REACT_APP_ENS_ADDRESS
       })
       provider = providerObject

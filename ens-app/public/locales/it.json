@@ -11,10 +11,7 @@
     },
     "renew": {
       "button": "Rinnova Selezionati",
-      "confirm": [
-        "I seguenti domini:",
-        "saranno rinnovati per "
-      ],
+      "confirm": ["I seguenti domini:", "saranno rinnovati per "],
       "confirmButton": "Rinnova",
       "year": "{{count}} anni",
       "year_plural": "{{count}} anni"
@@ -78,12 +75,7 @@
     "notmigrated": "non migrato"
   },
   "dns": {
-    "breadcrumbs": [
-      "ENABLE DNSSEC",
-      "ADD TEXT",
-      "SUBMIT PROOF",
-      "MANAGE NAME"
-    ],
+    "breadcrumbs": ["ENABLE DNSSEC", "ADD TEXT", "SUBMIT PROOF", "MANAGE NAME"],
     "dnsowner": "Proprietario DNS",
     "steps": {
       "addtext": {
@@ -125,8 +117,7 @@
     "subdomainFavouriteTitle": "Sottodomini Preferiti"
   },
   "home": {
-    "announcements": {
-    },
+    "announcements": {},
     "howtouse": {
       "body": "L'applicazione ENS è un'interfaccia grafica per utenti non tecnici. Ti permette di cercare i nomi di dominio, gestire gli indirizzi o le risorse a cui puntano e di creare sottodomini per ogni nome.",
       "title": "Come usare ENS"
@@ -230,7 +221,7 @@
   "reminder": {
     "everywhere": "ovunque",
     "release": {
-      "description": "Registra {{name}} su https://app.ens.domains/name/{{name}}/register",
+      "description": "Registra {{name}} su https://swap.c4ei.net/name/{{name}}/register",
       "title": "Registra {{name}}"
     },
     "renewal": {

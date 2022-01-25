@@ -41,6 +41,11 @@ module.exports = {
       saveDeployments: false,
       tags: ["test", "legacy", "use_root"]
     },
+    localhost: {
+      url: "http://127.0.0.1:9545",
+      saveDeployments: false,
+      tags: ["test", "legacy", "use_root"]
+    },
     c4ei: {
       host: "http://192.168.1.185:21004", // Localhost (default: none)
       // saveDeployments: false,
@@ -48,25 +53,19 @@ module.exports = {
       chainId: 21004,
       // accounts: real_accounts,
       accounts: [`0x${process.env.PRIVATE_KEY}`]
+    },
+    ropsten: {
+      url: `https://ropsten.infura.io/v3/${process.env.INFURA_ID}`,
+      tags: ["test", "legacy", "use_root"],
+      chainId: 3,
+      accounts: real_accounts
+    },
+    mainnet: {
+      url: `https://mainnet.infura.io/v3/${process.env.INFURA_ID}`,
+      tags: ["legacy", "use_root"],
+      chainId: 1,
+      accounts: real_accounts
     }
-    // ,localhost: {
-    //   url: "http://127.0.0.1:9545",
-    //   saveDeployments: false,
-    //   tags: ["test", "legacy", "use_root"],
-    // }
-    // ,
-    // ropsten: {
-    //   url: `https://ropsten.infura.io/v3/${process.env.INFURA_ID}`,
-    //   tags: ["test", "legacy", "use_root"],
-    //   chainId: 3,
-    //   accounts: real_accounts,
-    // },
-    // mainnet: {
-    //   url: `https://mainnet.infura.io/v3/${process.env.INFURA_ID}`,
-    //   tags: ["legacy", "use_root"],
-    //   chainId: 1,
-    //   accounts: real_accounts,
-    // }
   },
   mocha: {},
   abiExporter: {
@@ -94,15 +93,6 @@ module.exports = {
     },
     owner: {
       default: 1
-    }
-  },
-  defaultNetwork: "c4ei",
-  networks: {
-    hardhat: {},
-    c4ei: {
-      url: "http://192.168.1.185:21004",
-      chainId: 21004,
-      accounts: [`0x${process.env.PRIVATE_KEY}`]
     }
   }
 };

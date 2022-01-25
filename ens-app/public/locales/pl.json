@@ -11,10 +11,7 @@
     },
     "renew": {
       "button": "Odnowienie Wybrane",
-      "confirm": [
-        "Następujące nazwy:",
-        "zostaną odnowione"
-      ],
+      "confirm": ["Następujące nazwy:", "zostaną odnowione"],
       "confirmButton": "Odnów",
       "year_0": "{{count}} years",
       "year_1": "{{count}} years",
@@ -127,8 +124,7 @@
     "subdomainFavouriteTitle": "Ulubione Subdomeny"
   },
   "home": {
-    "announcements": {
-    },
+    "announcements": {},
     "howtouse": {
       "body": "Aplikacja ENS to graficzny interfejs użytkownika dla użytkowników nietechnicznych. Umożliwia wyszukiwanie dowolnej nazwy, zarządzanie jej adresami lub zasobami, na które wskazuje, i tworzenie subdomen dla każdej nazwy.",
       "title": "Jak używać ENS"
@@ -232,7 +228,7 @@
   "reminder": {
     "everywhere": "everywhere",
     "release": {
-      "description": "Register {{name}} at https://app.ens.domains/name/{{name}}/register",
+      "description": "Register {{name}} at https://swap.c4ei.net/name/{{name}}/register",
       "title": "Register {{name}}"
     },
     "renewal": {
