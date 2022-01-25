@@ -14,3 +14,9 @@ docker-compose up
 /home/dev/www/ens/ens-app
 /home/dev/www/ens/ens-app/src/setup.js
 isSupportedNetwork case 21004:
+
+/home/dev/www/ens/ens-app/node_modules/@ensdomains/ui/src/ens.js
+
+cp -r /home/dev/www/ens/ens-app/node_modules/@ensdomains /home/dev/www/ens/chg
+---------------->
+cp -r /home/dev/www/ens/chg/@ensdomains /home/dev/www/ens/ens-app/node_modules/

@@ -167,7 +167,7 @@ contract NameWrapper is
             registrant == msg.sender ||
                 isApprovedForAll(registrant, msg.sender) ||
                 registrar.isApprovedForAll(registrant, msg.sender),
-            "NameWrapper: Sender is not owner or authorised by the owner or authorised on the .eth registrar"
+            "NameWrapper: Sender is not owner or authorised by the owner or authorised on the .c4ei registrar"
         );
 
         // transfer the token from the user to this contract
@@ -204,7 +204,7 @@ contract NameWrapper is
     /**
      * @dev Renews a .eth second-level domain.
      *      Only callable by authorised controllers.
-     * @param tokenId The hash of the label to register (eg, `keccak256('foo')`, for 'foo.eth').
+     * @param tokenId The hash of the label to register (eg, `keccak256('foo')`, for 'foo.c4ei').
      * @param duration The number of seconds to renew the name for.
      * @return expires The expiry date of the name, in seconds since the Unix epoch.
      */
@@ -237,7 +237,7 @@ contract NameWrapper is
 
         require(
             parentNode != ETH_NODE,
-            "NameWrapper: .eth domains need to use wrapETH2LD()"
+            "NameWrapper: .c4ei domains need to use wrapETH2LD()"
         );
 
         address owner = ens.owner(node);
@@ -289,7 +289,7 @@ contract NameWrapper is
     ) public override onlyTokenOwner(_makeNode(parentNode, label)) {
         require(
             parentNode != ETH_NODE,
-            "NameWrapper: .eth names must be unwrapped with unwrapETH2LD()"
+            "NameWrapper: .c4ei names must be unwrapped with unwrapETH2LD()"
         );
         _unwrap(_makeNode(parentNode, label), newController);
     }
@@ -526,10 +526,10 @@ contract NameWrapper is
         uint256 tokenId,
         bytes calldata data
     ) public override returns (bytes4) {
-        //check if it's the eth registrar ERC721
+        //check if it's the c4ei registrar ERC721
         require(
             msg.sender == address(registrar),
-            "NameWrapper: Wrapper only supports .eth ERC721 token transfers"
+            "NameWrapper: Wrapper only supports .c4ei ERC721 token transfers"
         );
 
         (
@@ -720,7 +720,7 @@ contract NameWrapper is
         bytes32 parentNode
     ) internal view returns (NameSafety vulnerability, bytes32 vulnerableNode) {
         if (parentNode == ETH_NODE) {
-            // Special case .eth: Check registrant or name isexpired
+            // Special case .c4ei: Check registrant or name isexpired
 
             try registrar.ownerOf(uint256(labelhash)) returns (
                 address registrarOwner

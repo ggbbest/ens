@@ -35,9 +35,9 @@ Example:
 ```js
 // Using ethers.js v5
 abiCoder.encode(
-  ['string', 'address', 'uint96', 'address'],
-  ['vitalik', '0x...', '0x000000000000000000000001', '0x...']
-)
+  ["string", "address", "uint96", "address"],
+  ["vitalik", "0x...", "0x000000000000000000000001", "0x..."]
+);
 ```
 
 ## Unwrapping a name
@@ -98,9 +98,9 @@ To check whether or not a fuse is burnt you can use this function that takes a f
 
 ```js
 const areBurned = await allFusesBurned(
-  namehash('vitalik.eth'),
+  namehash("vitalik.eth"),
   CANNOT_TRANSFER | CANNOT_SET_RESOLVER
-)
+);
 // if CANNOT_UNWRAP AND CANNOT_SET_RESOLVER are *both* burned this will return true
 ```
 
@@ -191,6 +191,8 @@ After running the script it sets addresses to `.env`. If you want to redeploy so
 1. Register a name using the account you used to deploy the contract
 2. Set the label (`matoken` for `matoken.eth`) to `SEED_NAME=` on `.env`
 3. Run `yarn seed:rinkeby`
+
+yarn deploy:c4ei
 
 ```
 ~/.../ens/name-wrapper (seed)$yarn seed:rinkeby
