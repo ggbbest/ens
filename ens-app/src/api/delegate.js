@@ -18,13 +18,14 @@ const ENSTokenABI = [
   }
 ]
 
-const contractAddress = '0xc18360217d8f7ab5e7c516566761ea12ce7f9d72'
+const contractAddress = '0x013FE24e027938A8EBD06F5A2Ae0B5f2232c0e23'
 
 export default async function getShouldDelegate(address) {
   // if no address for connection
   if (!address) return false
   // if user isn't on mainnet
-  if ((await getNetworkId()) !== 1) return false
+  // if ((await getNetworkId()) !== 1) return false
+  if ((await getNetworkId()) !== 21004) return false
   try {
     const ENSTokenContract = new ethers.Contract(
       contractAddress,

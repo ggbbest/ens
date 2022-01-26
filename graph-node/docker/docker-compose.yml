@@ -17,7 +17,7 @@ services:
       postgres_pass: let-me-in
       postgres_db: graph-node
       ipfs: "ipfs:5001"
-      ethereum: "mainnet:http://192.168.1.185:21004"
+      ethereum: "c4ei:https://rpc.c4ei.net"
       GRAPH_LOG: info
   ipfs:
     image: ipfs/go-ipfs:v0.4.23
