@@ -30,3 +30,5 @@ cp -r /home/dev/www/ens/chg/@ensdomains /home/dev/www/ens/ens-app/node_modules/
 /home/dev/www/ens/ens-app/src/api/delegate.js
 --> 0xc18360217d8f7ab5e7c516566761ea12ce7f9d72
 /home/dev/www/ens/ENSToken.sol
+
+thegraph.com/hosted-service/ggbbest/name
