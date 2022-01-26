@@ -22,7 +22,7 @@ const endpoints = {
   '3': 'https://api.thegraph.com/subgraphs/name/ensdomains/ensropsten',
   '4': 'https://api.thegraph.com/subgraphs/name/ensdomains/ensrinkeby',
   '5': 'https://api.thegraph.com/subgraphs/name/ensdomains/ensgoerli',
-  '21004': 'https://subgraph.c4i.net'
+  '21004': 'https://thegraph.com/hosted-service/ggbbest/name'
 }
 
 function getGraphQLAPI() {
